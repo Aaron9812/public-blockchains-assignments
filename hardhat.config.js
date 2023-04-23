@@ -26,11 +26,6 @@ module.exports = {
 
   networks: {
     
-    goerli: {
-      url: GOERLI_RPC_URL,
-      accounts: [ HH_PRIVATE_KEY_1, HH_PRIVATE_KEY_2 ],
-    },
-    
     unima1: {
       url: process.env.NOT_UNIMA_URL_1,
       accounts: [ HH_PRIVATE_KEY_1, HH_PRIVATE_KEY_2 ],
